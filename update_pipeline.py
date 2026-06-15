@@ -6,7 +6,7 @@ import re
 def normalize_key(value):
     """
     Strips spaces, trailing tabs (\t), dashes, and non-alphanumeric text.
-    Ensures 'FV44CKGP\t', 'FV 44 CK GP' and 'fv44ckgp' match flawlessly. 15.06.26 11:24
+    Ensures 'FV44CKGP\t', 'FV 44 CK GP' and 'fv44ckgp' match flawlessly.
     """
     if not value:
         return ""
@@ -46,7 +46,8 @@ def load_json_mapping(mapping_dir, workbook_name):
 def extract_vendor_updates(vendor_file_path, mapping_guide):
     """
     Stages updates from the horizontal matrix format of FML CAT 6060.
-    Finds the 'Truck' label row automatically, then reads the latest row data status below it.
+    Dynamically finds the 'Truck ' or 'Fleet ' label row, then captures 
+    the absolute latest status cell from the bottom of each matrix column.
     """
     wb = openpyxl.load_workbook(vendor_file_path, data_only=True)
     sheet_name = mapping_guide["sheet"] if (mapping_guide and "sheet" in mapping_guide) else "Sheet1"
@@ -57,29 +58,30 @@ def extract_vendor_updates(vendor_file_path, mapping_guide):
     ws = wb[sheet_name]
     vendor_updates = {}
 
-    # Scan to find the row index containing 'Truck' or registration signatures dynamically
+    # Scan the first 15 rows of column 1 to find where the Truck/Registration labels are located
     truck_row = None
-    for r_idx in range(1, 15):
-        cell_check = str(ws.cell(row=r_idx, column=1).value or "").strip().upper()
-        if "TRUCK" in cell_check or "FLEET" in cell_check:
+    for r_idx in range(1, 16):
+        cell_val = str(ws.cell(row=r_idx, column=1).value or "").strip().upper()
+        if "TRUCK" in cell_val or "FLEET" in cell_val:
             truck_row = r_idx
             break
             
     if not truck_row:
-        truck_row = 10  # Standard matrix layout row fallback
+        truck_row = 9  # Precision fallback matching row 9 for the actual spreadsheet data layout
 
     latest_data_row = ws.max_row
     
+    # Loop across the horizontal columns containing different load parts
     for col_idx in range(2, ws.max_column + 1):
         truck_val = ws.cell(row=truck_row, column=col_idx).value
         if not truck_val:
             continue
             
         status_val = None
-        # Back-track up the column to get the most recent daily log description update entry
+        # Traverses vertically upwards from the bottom of the column to capture the newest non-empty tracking log entry
         for r_idx in range(latest_data_row, truck_row, -1):
             cell_check = ws.cell(row=r_idx, column=col_idx).value
-            if cell_check:
+            if cell_check is not None and str(cell_check).strip() != "":
                 status_val = str(cell_check).strip()
                 break
                 
@@ -139,8 +141,8 @@ def execute_mapped_update(file_path, mapping_guide, updates_lookup):
     truck_idx = None
     status_idx = None
     
-    # DYNAMIC SEARCH 1: Find columns based on header labels across the first 15 rows
-    for r_idx in range(1, 15):
+    # Scan rows 1 through 15 to locate exactly which columns store tracking metrics
+    for r_idx in range(1, 16):
         for col_idx in range(1, ws.max_column + 1):
             cell_val = str(ws.cell(row=r_idx, column=col_idx).value or "").strip().upper()
             if "HORSE REG" in cell_val or ("TRUCK" in cell_val and not truck_idx):
@@ -150,7 +152,7 @@ def execute_mapped_update(file_path, mapping_guide, updates_lookup):
         if truck_idx and status_idx:
             break
 
-    # Hardcoded fallbacks if headers cannot be found textually
+    # Hardcoded fallback metrics based on project defaults if headers are empty text labels
     if not truck_idx:
         truck_idx = 12
     if not status_idx:
@@ -158,7 +160,7 @@ def execute_mapped_update(file_path, mapping_guide, updates_lookup):
 
     updated_count = 0
 
-    # DYNAMIC SEARCH 2: Scan ALL rows from top to bottom to protect against layout drift
+    # Scan all active rows from top to bottom to guarantee updates land regardless of grid adjustments
     for row_idx in range(1, ws.max_row + 1):
         truck_val = ws.cell(row=row_idx, column=truck_idx).value
         if not truck_val:
@@ -166,7 +168,7 @@ def execute_mapped_update(file_path, mapping_guide, updates_lookup):
             
         clean_truck = normalize_key(truck_val)
         
-        # Avoid matching row headers text themselves
+        # Guard against matching row headers text themselves
         if "HORSE" in clean_truck or "REG" in clean_truck or "TRUCK" in clean_truck:
             continue
             
