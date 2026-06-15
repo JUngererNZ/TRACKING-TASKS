@@ -1,0 +1,278 @@
+{
+  "name": "TRACKING-TASKS",
+  "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS",
+  "type": "directory",
+  "modified": "2026-06-15T10:07:20.452414",
+  "children": [
+    {
+      "name": "15-06-2026",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026",
+      "type": "directory",
+      "modified": "2026-06-15T09:52:00.271642",
+      "children": [
+        {
+          "name": "BARTRAC - CONGO TRACKING 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - CONGO TRACKING 15-06-2026.xlsx",
+          "type": "file",
+          "size": 1443801,
+          "modified": "2026-06-15T08:52:06.038737"
+        },
+        {
+          "name": "BARTRAC - ERG TRACKING 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - ERG TRACKING 15-06-2026.xlsx",
+          "type": "file",
+          "size": 414920,
+          "modified": "2026-06-15T08:52:21.487458"
+        },
+        {
+          "name": "BARTRAC - KAMOA TRACKING AS OF 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - KAMOA TRACKING AS OF 15-06-2026.xlsx",
+          "type": "file",
+          "size": 454780,
+          "modified": "2026-06-15T08:52:41"
+        },
+        {
+          "name": "BARTRAC - KCC TRACKING AS OF 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - KCC TRACKING AS OF 15-06-2026.xlsx",
+          "type": "file",
+          "size": 242183,
+          "modified": "2026-06-15T08:52:55"
+        },
+        {
+          "name": "BARTRAC - MUMI TRACKING AS OF 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - MUMI TRACKING AS OF 15-06-2026.xlsx",
+          "type": "file",
+          "size": 100122,
+          "modified": "2026-06-15T08:53:11"
+        },
+        {
+          "name": "BARTRAC - TRACKING - FML BONDED FACILITY - 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\BARTRAC - TRACKING - FML BONDED FACILITY - 15-06-2026.xlsx",
+          "type": "file",
+          "size": 75197,
+          "modified": "2026-06-15T08:54:36"
+        },
+        {
+          "name": "COMPLETE",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE",
+          "type": "directory",
+          "modified": "2026-06-15T09:30:48.775398",
+          "children": [
+            {
+              "name": "___BARTRAC - CONGO TRACKING 10-04-2026.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\___BARTRAC - CONGO TRACKING 10-04-2026.xlsx",
+              "type": "file",
+              "size": 1470417,
+              "modified": "2026-04-10T13:50:08"
+            },
+            {
+              "name": "_BARTRAC - CONGO TRACKING 10-04-2026.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\_BARTRAC - CONGO TRACKING 10-04-2026.xlsx",
+              "type": "file",
+              "size": 1470542,
+              "modified": "2026-04-10T13:38:09"
+            },
+            {
+              "name": "BARTRAC - KCC TRACKING AS OF 03-04-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - KCC TRACKING AS OF 03-04-2025.xlsx",
+              "type": "file",
+              "size": 197581,
+              "modified": "2025-04-02T09:56:01"
+            },
+            {
+              "name": "BARTRAC - KPM TRACKING 30-04-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - KPM TRACKING 30-04-2025.xlsx",
+              "type": "file",
+              "size": 498540,
+              "modified": "2025-04-29T08:58:50"
+            },
+            {
+              "name": "BARTRAC - SPARES TRACKING 03-06-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - SPARES TRACKING 03-06-2025.xlsx",
+              "type": "file",
+              "size": 89246,
+              "modified": "2025-06-02T10:12:51"
+            },
+            {
+              "name": "BARTRAC - SURYA MINES 28-05-2026.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - SURYA MINES 28-05-2026.xlsx",
+              "type": "file",
+              "size": 473833,
+              "modified": "2026-05-27T08:58:44"
+            },
+            {
+              "name": "BARTRAC - TENKE TRACKING 11-11-2024.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - TENKE TRACKING 11-11-2024.xlsx",
+              "type": "file",
+              "size": 85027,
+              "modified": "2024-11-11T10:24:39"
+            },
+            {
+              "name": "BARTRAC - TRACKING - 3RD PARTY BONDED FACILITY - 04-11-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\BARTRAC - TRACKING - 3RD PARTY BONDED FACILITY - 04-11-2025.xlsx",
+              "type": "file",
+              "size": 75131,
+              "modified": "2025-11-04T08:13:28"
+            },
+            {
+              "name": "FML - A AND L DRILLING AND CONSULTING - TRACKING AS OF 05-02-2026.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML - A AND L DRILLING AND CONSULTING - TRACKING AS OF 05-02-2026.xlsx",
+              "type": "file",
+              "size": 40723,
+              "modified": "2026-02-04T08:55:03"
+            },
+            {
+              "name": "FML - SM HYDRAULICS - TRACKING AS OF 26-08-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML - SM HYDRAULICS - TRACKING AS OF 26-08-2025.xlsx",
+              "type": "file",
+              "size": 48900,
+              "modified": "2025-08-25T09:44:59"
+            },
+            {
+              "name": "FML-KANU - ALLAN - SEA FREIGHT TRACKING AS OF 27-01-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML-KANU - ALLAN - SEA FREIGHT TRACKING AS OF 27-01-2025.xlsx",
+              "type": "file",
+              "size": 53701,
+              "modified": "2025-01-24T08:47:56"
+            },
+            {
+              "name": "FML-KANU - CARYN - TRACKING AS OF 16-05-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML-KANU - CARYN - TRACKING AS OF 16-05-2025.xlsx",
+              "type": "file",
+              "size": 65198,
+              "modified": "2025-05-16T08:30:25"
+            },
+            {
+              "name": "FML-KANU - CHRISTELE - 11 PALLETS TRACKING AS OF 06-02-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML-KANU - CHRISTELE - 11 PALLETS TRACKING AS OF 06-02-2025.xlsx",
+              "type": "file",
+              "size": 52976,
+              "modified": "2025-02-06T09:02:53"
+            },
+            {
+              "name": "FML-KANU BOTSWANA - ALLAN - TRACKING AS OF 31-03-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML-KANU BOTSWANA - ALLAN - TRACKING AS OF 31-03-2025.xlsx",
+              "type": "file",
+              "size": 58015,
+              "modified": "2025-03-31T13:35:53"
+            },
+            {
+              "name": "FML-KANU BOTSWANA RETURN - ALLAN - TRACKING AS OF 04-04-2025.xlsx",
+              "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\COMPLETE\\FML-KANU BOTSWANA RETURN - ALLAN - TRACKING AS OF 04-04-2025.xlsx",
+              "type": "file",
+              "size": 52149,
+              "modified": "2025-04-04T09:26:41"
+            }
+          ]
+        },
+        {
+          "name": "FML-KANU - ALLAN - TRACKING AS OF 15-06-2026.xlsx",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\15-06-2026\\FML-KANU - ALLAN - TRACKING AS OF 15-06-2026.xlsx",
+          "type": "file",
+          "size": 71165,
+          "modified": "2026-06-12T07:43:39"
+        }
+      ]
+    },
+    {
+      "name": "company BARTRAC - KAMOA TRACKING AS OF 03-06-2026.xlsx",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\company BARTRAC - KAMOA TRACKING AS OF 03-06-2026.xlsx",
+      "type": "file",
+      "size": 454700,
+      "modified": "2026-06-03T10:16:43"
+    },
+    {
+      "name": "dir_to_json.py",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\dir_to_json.py",
+      "type": "file",
+      "size": 3267,
+      "modified": "2026-06-15T10:04:23.587346"
+    },
+    {
+      "name": "directory_structure.json",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\directory_structure.json",
+      "type": "file",
+      "size": 11800,
+      "modified": "2026-06-15T10:04:38.091269"
+    },
+    {
+      "name": "example vendor ORIENTO TRACKING REPORT.xlsx",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\example vendor ORIENTO TRACKING REPORT.xlsx",
+      "type": "file",
+      "size": 197085,
+      "modified": "2026-06-03T09:17:00.349303"
+    },
+    {
+      "name": "JSON-REF",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\JSON-REF",
+      "type": "directory",
+      "modified": "2026-06-15T09:59:40.324682",
+      "children": [
+        {
+          "name": "BARTRAC - KCC TRACKING AS OF 15-06-2026.json",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\JSON-REF\\BARTRAC - KCC TRACKING AS OF 15-06-2026.json",
+          "type": "file",
+          "size": 244,
+          "modified": "2026-06-15T09:59:40.410226"
+        },
+        {
+          "name": "bartrac-kamoa-enroute-site-mapping.json",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\JSON-REF\\bartrac-kamoa-enroute-site-mapping.json",
+          "type": "file",
+          "size": 18519,
+          "modified": "2026-06-03T11:49:01.800878"
+        },
+        {
+          "name": "fml cat 6060.json",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\JSON-REF\\fml cat 6060.json",
+          "type": "file",
+          "size": 237,
+          "modified": "2026-06-15T09:59:07.451722"
+        }
+      ]
+    },
+    {
+      "name": "README.md",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\README.md",
+      "type": "file",
+      "size": 24908,
+      "modified": "2026-06-03T11:42:07.878930"
+    },
+    {
+      "name": "README2.md",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\README2.md",
+      "type": "file",
+      "size": 23877,
+      "modified": "2026-06-03T13:57:09.967355"
+    },
+    {
+      "name": "SCRIPTS",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\SCRIPTS",
+      "type": "directory",
+      "modified": "2026-06-03T11:45:44.880644",
+      "children": [
+        {
+          "name": "BARTRAC-KAMOA-TRACKING.py",
+          "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\SCRIPTS\\BARTRAC-KAMOA-TRACKING.py",
+          "type": "file",
+          "size": 3354,
+          "modified": "2026-06-03T11:48:53.765512"
+        }
+      ]
+    },
+    {
+      "name": "update_pipeline.py",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\update_pipeline.py",
+      "type": "file",
+      "size": 8172,
+      "modified": "2026-06-15T10:19:23.677073"
+    },
+    {
+      "name": "vendor_reports",
+      "path": "C:\\Users\\Jason\\Projects\\TRACKING-TASKS\\vendor_reports",
+      "type": "directory",
+      "modified": "2026-06-03T13:55:52.341418",
+      "children": []
+    }
+  ]
+}

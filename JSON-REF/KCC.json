@@ -1,0 +1,15 @@
+{
+    "sheet": "ENROUTE SITE",
+    "header_row": 7,
+    "first_data_row": 8,
+    "columns": [
+        {
+            "column_index": 12,
+            "header_name": "HORSE REG NO"
+        },
+        {
+            "column_index": 15,
+            "header_name": "ACTUAL STATUS"
+        }
+    ]
+}

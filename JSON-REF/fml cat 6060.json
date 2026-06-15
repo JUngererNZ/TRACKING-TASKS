@@ -1,0 +1,20 @@
+{
+    "workbook": "FML CAT 6060.xlsx",
+    "sheet": "Sheet1",
+    "header_row": 3,
+    "first_data_row": 8,
+    "columns": [
+        {
+            "column_index": 1,
+            "header_name": "CLIENT PO"
+        },
+        {
+            "column_index": 1,
+            "header_name": "HORSE REG NO"
+        },
+        {
+            "column_index": 1,
+            "header_name": "ACTUAL STATUS"
+        }
+    ]
+}

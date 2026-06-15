@@ -1,0 +1,9 @@
+{
+  "sheet": "ENROUTE SITE",
+  "first_data_row": 7,
+  "columns": [
+    { "header_name": "CLIENT PO", "column_index": 1 },
+    { "header_name": "HORSE REG NO", "column_index": 12 },
+    { "header_name": "ACTUAL STATUS", "column_index": 7 }
+  ]
+}
